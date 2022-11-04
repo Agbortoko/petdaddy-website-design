@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content=""/>
+    <title>PetDaddy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="dist/style.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+<body class="bg-light">
+
+    
+    <!-- Preloader -->
+
+    <section id="preloader" class="preloader d-flex justify-content-center align-items-center">
+
+        <div class="spinner-border text-white"  style="width: 4rem; height: 4rem;" role="status">
+            <span class="visually-hidden"> Loading.. </span>
+        </div>
+
+    </section>
+
+      <!-- Navigation bar -->
+      <nav id="navigation" class="navbar-expand-lg bg-white sticky-top shadow-md py-4">
+
+        <div class="container-md d-flex justify-content-between align-items-center">
+
+            <!-- Navigation Brand -->
+            <a href="index.html" class="navbar-brand brand fs-3 fw-bold d-inline-block text-light">
+                Pet<span class="text-pdprimary fw-bolder">Daddy</span>
+            </a>
+
+            <!-- Mobile Offcanvas toggle -->
+
+            <button class="btn btn-pdprimary d-lg-none rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu"><i class="bi bi-list fs-4"></i></button>
+
+            <!-- Mobile Menu Starts -->
+            <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenu">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="mobileMenu">
+
+                    <a href="index.html" class="navbar-brand fs-3 fw-bold d-inline-block">
+                        Pet<span class="text-muted fw-bolder">Daddy</span>
+                    </a>
+        
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+
+                    <ul class="nav flex-column text-uppercase">
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="available-pets.html" class="nav-link">Available Pets</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="testimonials.html" class="nav-link">Testimonials</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+    
+                       
+    
+                    </ul>
+
+                    <div class="container mt-4">
+
+                        <form action="" method="GET">
+
+                            <div class="input-group">
+                                <span class="input-group-text" id="search"><i class="bi bi-search"></i></span>
+                                <input class="form-control" type="search" name="search" id="search" placeholder="Search" arial-label="Search" aria-describedby="search">
+                            </div>
+
+                        </form>
+
+                    </div>
+                  
+                </div>
+              </div>
+
+              <!-- Mobile Menu Ends -->
+
+
+              <!-- Large Screen menu starts -->
+            <div class="d-none d-lg-block">
+
+                <ul class="nav text-uppercase">
+
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="available-pets.html" class="nav-link">Available Pets</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="testimonials.html" class="nav-link">Testimonials</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+
+                   
+
+                </ul>
+
+
+            </div>
+
+            <!-- Large Screen menu ends -->
+              
+          
+        </div>
+
+     </nav>
+    <!-- Main Navigation ends -->
+
+
+        <!-- Breadcrumb -->
+
+        <section id="breadcrumb" class="d-flex justify-content-center align-items-center" style="background-image: url('assets/images/banner/torsten.jpg') ;">
+
+            <div class="container text-center text-white">
+    
+                <p class="fs-5">
+                    <a class="text-decoration-none text-white text-uppercase fs-6" href="index.html"> Home</a> / <a href="page.html" class="text-decoration-none">Page name</a>
+                </p>
+                
+                
+            </div>
+    
+        </section>
+    
+        <!-- Breadcrumb ends -->
+
+
+        <!-- Search Bar section -->
+        <section id="search" class="bg-pdsecondarylight py-5">
+            <div class="container-md">
+
+                <form action="#">
+
+                        <div class="input-group">
+            
+                            <input type="search" class="form-control form-control-lg rounded-0" name="search" id="search" placeholder="Search for an available pet">
+                            
+                                <button type="submit" class="input-group-text btn btn-pdprimary text-uppercase">Search Now</button>
+                            
+                        </div>
+                </form>
+                
+            </div>
+        </section>
+
+
+                <section id="page" class="py-5">
+
+                    
+                <h1 class="mb-5 text-center fs-2 fw-bold">What people say <span class="text-pdprimary">about us</span></h1>
+
+                    <div class="container-md">
+
+                           <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consequatur voluptate tenetur laudantium ab. Aspernatur saepe eveniet temporibus harum nulla, aperiam repudiandae laboriosam, quam officia deserunt perferendis mollitia vero odit cum unde repellat veritatis. Illo, eaque possimus, aliquam voluptatum alias voluptatem vero a sint inventore officiis ipsa cumque minima? Similique nam eaque ipsum ex dolor rem numquam unde suscipit magnam?
+                           </p>
+
+                           <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non laudantium reiciendis quo reprehenderit delectus nisi nulla assumenda tenetur, obcaecati perferendis consequatur blanditiis commodi. Ut obcaecati tempora tenetur porro cum? Aliquid nisi laborum corrupti dolores quaerat similique dolore, delectus ipsa nemo atque accusantium! Tempora odit molestias fuga reprehenderit, nihil laboriosam eum.
+                           </p>
+            
+                    </div>
+            
+            
+                    </div>
+            
+                </section>
+            
+
+
+
+
+        <!-- Footer -->
+
+        <footer id="footer" class="py-5 bg-pdsecondary">
+
+            <div class="container-md text-center">
+                <p class="text-white fs-5 mb-0">Copyright &copy; 2022 PetDaddy</p>
+            </div>
+
+        </footer>
+
+
+
+          <!-- Scroll to top -->
+
+        <div id="scrollToTop" class="scrolltotop bg-pdprimary rounded-circle site-tooltip d-none"  data-bs-placement="bottom" data-bs-title="Click to scroll up">
+            <i class="bi bi-arrow-up"></i>
+        </div> 
+
+
+
+    
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="app/js/app.js"></script>
+    
+</body>
+</html>

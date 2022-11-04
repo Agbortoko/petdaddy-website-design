@@ -1,0 +1,41 @@
+@forward 'reboot';
+@forward 'navigation';
+@forward 'banner';
+@forward 'pets';
+@forward 'about';
+@forward 'testimonials';
+@forward 'contact';
+@forward 'breadcrumb';
+@forward 'preloader';
+@forward 'login';
+@forward 'scrolltotop';
+
+
+// Custom font to overide bootstrap
+
+$font-family-sans-serif : 'Roboto', sans-serif;
+$primary: hsl(48, 74%, 58%);
+
+
+
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+
+
+// Added theme colors
+
+$custom-theme-colors : (
+    "pdprimary" : hsl(48, 74%, 58%),
+    "pdsecondary" : rgb(102, 86, 17),
+    "pdsecondarylight" : hsl(50, 71%, 93%),
+);
+
+$theme-colors : map-merge($custom-theme-colors, $theme-colors);
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+
+
+

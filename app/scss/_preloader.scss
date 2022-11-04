@@ -1,0 +1,16 @@
+@use 'variables' as v;
+
+.preloader{
+    width: 100%;
+    height: 100vh;
+    background-color: map-get(v.$custom-theme-colors, "pdprimary");
+    z-index: 999999;
+    position: fixed;
+    overflow: hidden;
+}
+
+.fadeloader {
+   overflow: hidden;
+   visibility: hidden;
+   transition: visibility 1s ease-out;
+}

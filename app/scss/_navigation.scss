@@ -1,0 +1,42 @@
+@use 'variables' as v;
+
+#navigation{
+
+    background-color: map-get(v.$custom-theme-colors, "pdsecondary")!important;
+
+    .nav{
+        
+        .nav-item{
+
+            a{
+                color: map-get(v.$custom-theme-colors, "pdlight");
+    
+                &:hover{
+                    color: map-get(v.$custom-theme-colors, "pdprimary");
+                    transition: color 350ms ease-in-out;
+                }
+    
+            }
+
+            &.active{
+                a{
+                    color: map-get(v.$custom-theme-colors, "pdprimary")!important;
+                }
+                
+            }
+        }
+
+
+       
+
+    }
+
+   
+
+}
+
+.brand{
+    text-decoration: none;
+    font-family: v.$font-family-brand;
+    text-transform: uppercase;
+}

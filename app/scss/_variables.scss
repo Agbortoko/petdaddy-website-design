@@ -1,0 +1,13 @@
+// Site variables
+
+$font-family-brand: 'Alfa Slab One', cursive;
+
+$custom-theme-colors : (
+    "pdprimary" : hsl(48, 74%, 58%),
+    "pdsecondary" : hsl(49, 71%, 23%),
+    "pdsecondarylight" : hsla(49, 71%, 23%, 0.459),
+    "pddark": hsl(0, 0%, 38%),
+    "pddarktransparent": hsla(0, 0%, 38%, 0.469),
+    "pdlight": hsl(0, 1%, 70%),
+    "white": hsl(0, 0%, 91%)
+);

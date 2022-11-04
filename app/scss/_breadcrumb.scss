@@ -1,0 +1,10 @@
+@use 'variables' as v;
+
+#breadcrumb{
+    height: 12.45rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: map-get(v.$custom-theme-colors, "pddarktransparent");
+    background-blend-mode: multiply;
+}

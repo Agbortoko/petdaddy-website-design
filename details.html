@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content=""/>
+    <title>PetDaddy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="dist/style.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+<body class="bg-light">
+
+    
+    <!-- Preloader -->
+
+    <section id="preloader" class="preloader d-flex justify-content-center align-items-center">
+
+        <div class="spinner-border text-white"  style="width: 4rem; height: 4rem;" role="status">
+            <span class="visually-hidden"> Loading.. </span>
+        </div>
+
+    </section>
+
+       <!-- Navigation bar -->
+    <nav id="navigation" class="navbar-expand-lg bg-white sticky-top shadow-md py-4">
+
+        <div class="container-md d-flex justify-content-between align-items-center">
+
+            <!-- Navigation Brand -->
+            <a href="index.html" class="navbar-brand brand fs-3 fw-bold d-inline-block text-light">
+                Pet<span class="text-pdprimary fw-bolder">Daddy</span>
+            </a>
+
+            <!-- Mobile Offcanvas toggle -->
+
+            <button class="btn btn-pdprimary d-lg-none rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu"><i class="bi bi-list fs-4"></i></button>
+
+            <!-- Mobile Menu Starts -->
+            <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenu">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="mobileMenu">
+
+                    <a href="index.html" class="navbar-brand fs-3 fw-bold d-inline-block">
+                        Pet<span class="text-muted fw-bolder">Daddy</span>
+                    </a>
+        
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+
+                    <ul class="nav flex-column text-uppercase">
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="available-pets.html" class="nav-link">Available Pets</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="testimonials.html" class="nav-link">Testimonials</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+    
+                       
+    
+                    </ul>
+
+                    <div class="container mt-4">
+
+                        <form action="" method="GET">
+
+                            <div class="input-group">
+                                <span class="input-group-text" id="search"><i class="bi bi-search"></i></span>
+                                <input class="form-control" type="search" name="search" id="search" placeholder="Search" arial-label="Search" aria-describedby="search">
+                            </div>
+
+                        </form>
+
+                    </div>
+                  
+                </div>
+              </div>
+
+              <!-- Mobile Menu Ends -->
+
+
+              <!-- Large Screen menu starts -->
+            <div class="d-none d-lg-block">
+
+                <ul class="nav text-uppercase">
+
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="available-pets.html" class="nav-link">Available Pets</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="testimonials.html" class="nav-link">Testimonials</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+
+                   
+
+                </ul>
+
+
+            </div>
+
+            <!-- Large Screen menu ends -->
+              
+          
+        </div>
+
+    </nav>
+    <!-- Main Navigation ends -->
+
+        <!-- Breadcrumb -->
+
+        <section id="breadcrumb" class="d-flex justify-content-center align-items-center" style="background-image: url('assets/images/banner/torsten.jpg') ;">
+
+            <div class="container text-center text-white">
+    
+                <p class="fs-5">
+                    <a class="text-decoration-none text-white text-uppercase fs-6" href="index.html"> Home</a> / <a href="available-pets.html" class="text-decoration-none">Available Pets</a>
+                </p>
+                
+                
+            </div>
+    
+        </section>
+    
+        <!-- Breadcrumb ends -->
+
+
+        <!-- Search Bar section -->
+        <section id="search" class="bg-pdsecondarylight py-5">
+            <div class="container-md">
+
+                <form action="#">
+
+                        <div class="input-group">
+            
+                            <input type="search" class="form-control form-control-lg rounded-0" name="search" id="search" placeholder="Search for an available pet">
+                            
+                                <button type="submit" class="input-group-text btn btn-pdprimary text-uppercase">Search Now</button>
+                            
+                        </div>
+                </form>
+                
+            </div>
+        </section>
+
+
+
+        <!-- Single pet section -->
+
+        <section id="pet">
+
+            <div class="container-md p-5">
+
+                <div class="row g-5 align-items-center">
+                    <div class="col-md-4">
+    
+                        <div class="card shadow">
+                            <img src="assets/images/pet/pet01.png" alt="">
+                        </div>
+    
+                       
+    
+                    </div>
+                    <div class="col-md-8 text-center">
+                        
+                        <div class="card py-3">
+                            <h2 class="fw-bold display-6">The Pet's Name</h2>
+
+                            <ul class="list-group list-group-flush">
+
+                                <li class="list-group-item">
+                                    <span class="fw-bolder">Age : </span>
+                                     12 Months Old
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span class="fw-bolder">Weight : </span>
+                                     5 kg
+                                </li>
+
+                                <li class="list-group-item">
+                                    <span class="fw-bolder">Vacinated : </span>
+                                     Yes
+                                </li>
+
+                                <li class="list-group-item">
+                                    <p class="mb-0 display-6 text-danger"><span class="fw-bolder">Price : </span>
+                                        $500</p>
+                                </li>
+
+
+                                <li class="list-group-item">
+                                     <a href="#" class="btn btn-pdprimary btn-lg">
+                                        Buy {{ Petname }}
+                                     </a>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                      
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+           <!-- Recent Pets section -->
+        <section id="pets" class="py-5 mt-3 bg-pdsecondarylight">
+
+            <div class="container-md p-5">
+
+                <h2 class="mb-5 text-center fw-bold">Other Available <span class="text-pdprimary">Pets</span></h2>
+
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card shadow">
+                            <div class="card-image" style="background-image: url('assets/images/pet/pet01.png');"></div>
+
+                            <div class="card-body">
+
+                                <h5 class="fw-bold text-center">Pet Name</h5>
+
+                                <ul class="list-group list-group-flush">
+
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Gender: </span> Male
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Age: </span> 12 weeks old
+                                    </li>
+
+                                </ul>
+
+                                <a href="#" class="btn btn-pdprimary d-block rounded-pill mt-3">See More</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card shadow">
+                            <div class="card-image" style="background-image: url('assets/images/pet/pet02.png');"></div>
+
+                            <div class="card-body">
+
+                                <h5 class="fw-bold text-center">Pet Name</h5>
+
+                                <ul class="list-group list-group-flush">
+
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Gender: </span> Male
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Age: </span> 12 weeks old
+                                    </li>
+
+                                </ul>
+
+                                <a href="#" class="btn btn-pdprimary d-block rounded-pill mt-3">See More</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card shadow">
+                            <div class="card-image" style="background-image: url('assets/images/pet/pet03.png');"></div>
+
+                            <div class="card-body">
+
+                                <h5 class="fw-bold text-center">Pet Name</h5>
+
+                                <ul class="list-group list-group-flush">
+
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Gender: </span> Male
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Age: </span> 12 weeks old
+                                    </li>
+
+                                </ul>
+                                <a href="#" class="btn btn-pdprimary d-block rounded-pill mt-3">See More</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card shadow">
+                            <div class="card-image" style="background-image: url('assets/images/pet/pet04.png');"></div>
+
+                            <div class="card-body">
+
+                                <h5 class="fw-bold text-center">Pet Name</h5>
+
+                                <ul class="list-group list-group-flush">
+
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Gender: </span> Male
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <span class="fw-bold">Age: </span> 12 weeks old
+                                    </li>
+
+        
+
+                                </ul>
+
+                                <a href="#" class="btn btn-pdprimary d-block rounded-pill mt-3">See More</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-md mt-5 text-center ">
+                <a href="#" class="btn btn-pdprimary btn-lg rounded-pill">See Other Available Pets</a>
+            </div>
+        
+
+        </section>
+        
+
+
+        <!-- Footer -->
+
+        <footer id="footer" class="py-5 bg-pdsecondary">
+
+            <div class="container-md text-center">
+                <p class="text-white fs-5 mb-0">Copyright &copy; 2022 PetDaddy</p>
+            </div>
+
+        </footer>
+
+
+        <!-- Scroll to top -->
+
+        <div id="scrollToTop" class="scrolltotop bg-pdprimary rounded-circle site-tooltip d-none"  data-bs-placement="bottom" data-bs-title="Click to scroll up">
+            <i class="bi bi-arrow-up"></i>
+        </div> 
+
+
+   
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app/js/app.js"></script>
+    
+</body>
+</html>

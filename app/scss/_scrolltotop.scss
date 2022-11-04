@@ -1,0 +1,13 @@
+@use 'variables' as v;
+
+.scrolltotop{
+    width: 3rem;
+    aspect-ratio: 1;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 99;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.875rem;
+}
